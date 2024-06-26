@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#111;
+    color: rgba(255, 255, 255, 0.84);
+
+    align-items: center;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px;
+    margin-left: 350px;
+    
+}
+.navbar-brad{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-item{
+    margin: 0 10px;
+    list-style:none;
+    padding: 35px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    color:red;
+}
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+
+.avatar{
+
+    position: fixed;
+    right: 20px;
+    width: 60px;
+    border-style: dotted;
+    border-color: aqua;
+}
